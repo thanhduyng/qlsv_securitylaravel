@@ -1,0 +1,83 @@
+.lxt {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.lophoc {
+    background: url(/images/lophoc.jpg);
+    width: 380px;
+
+}
+
+.lophoc a {
+    text-transform: uppercase;
+    color: dodgerblue;
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 25px;
+    display: block;
+    margin-top: 30px;
+}
+
+.lophoc a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.xinnghi {
+    background: url(/images/xinnghi1.jpg);
+    width: 380px;
+}
+
+.txl {
+    border-top: 1px solid darkblue;
+    border-left: 1px solid darkblue;
+    height: 130px;
+    border-radius: 8px;
+    background-size: 384px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.xinnghi a {
+    text-transform: uppercase;
+    color: dodgerblue;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+    display: block;
+    margin-top: 30px;
+}
+
+.xinnghi a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.thongbao {
+    background: url(/images/thongbao.jpg);
+    height: 130px;
+    border-radius: 8px;
+    background-size: 384px;
+    background-position: center;
+    border-top: 1px solid darkblue;
+    border-left: 1px solid darkblue;
+    background-repeat: no-repeat;
+    width: 380px;
+}
+
+.thongbao a {
+    text-transform: uppercase;
+    color: dodgerblue;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+    display: block;
+    margin-top: 30px;
+}
+
+.thongbao a:hover {
+    color: red;
+    text-decoration: none;
+}

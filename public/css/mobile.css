@@ -1,0 +1,158 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif
+}
+
+body,
+html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+.w3-top {
+    top: auto;
+}
+
+.w3-top,
+.w3-bottom {
+    position: absolute !important;
+
+}
+
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+.w3-white,
+.w3-hover-white:hover {
+    color: #fff !important;
+    background-color: #D90000 !important;
+}
+
+.w3-white, .w3-hover-white:hover {
+    color: #000!important;
+    background-color: #d90000!important;
+}
+
+.w3-black,
+.w3-hover-black:hover {
+    color: #fff !important;
+    background-color: #D90000 !important;
+}
+
+.w3-button:hover {
+    color: #fff !important;
+    background-color: #D90000 !important;
+}
+
+.w3-bar .w3-bar-item {
+    font-size: 17px;
+}
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #D90000;
+    outline: 0;
+}
+
+.dropdown-menu {
+    background-color: #D90000;
+}
+
+.anh {
+  display: none
+}
+
+.logo {
+    height: 130px;
+    background-image: url(images/aspace.jpg);
+}
+
+.plus-them{
+    margin-left: 350px; 
+    margin-top: 23px; 
+    display: none;
+}
+.plus-index{
+    display: none;
+}
+
+/* border tròn */
+.btn-circle {
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    padding: 3px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+/* end border tròn */
+
+
+@media (max-width: 880px) {
+    .width {
+        width: 100%;
+    }
+    
+    img {
+        margin-top: 11px;
+        width: 19%;
+        margin-left: -40px;
+        margin-bottom: -50px;
+        background-color: #fff;
+    }
+
+    .anh{
+        display: flex;
+        width: 110%;
+      
+    }
+
+    .asc {
+        margin-left: 0px;
+
+    }
+
+    .logo {
+        display: none;
+    }
+   .row{
+     
+   }
+   .plus-them{
+        width: 10px;
+        margin-left: 330px; 
+        margin-bottom: -37px;
+        color: #fff;
+        display: flex;
+    }
+    .plus-index{
+        display: flex;
+        margin-bottom: -39px;
+        margin-left: 19px;
+        margin-top: 19px;
+    }
+    .w3-top,
+    .w3-bottom {
+        position: fixed !important;
+
+    }
+    .w3-white, .w3-hover-white:hover {
+        top: 0;
+        color: #fff !important;
+        background-color: #D90000 !important;
+        position: fixed;
+    }
+    h3{
+        display: none;
+    }
+}                                       
